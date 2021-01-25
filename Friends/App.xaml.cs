@@ -10,7 +10,7 @@ namespace Friends
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new FriendsListPage());
         }
 
         protected override void OnStart()
